@@ -29,7 +29,7 @@ module.exports = {
         type: Sequelize.CHAR(60),
         allowNull: false
       },
-      dateOfBirth: {
+      date_of_birth: {
         type: 'TIMESTAMP',
         allowNull: false
       },

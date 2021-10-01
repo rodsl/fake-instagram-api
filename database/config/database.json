@@ -1,11 +1,15 @@
 {
   "development": {
-    "username": "root",
-    "password": "arrozefeijao29",
+    "username": "root2",
+    "password": "",
     "database": "fake_instagram",
     "host": "localhost",
     "dialect": "mysql",
-    "port": 3306
+    "port": 3306,
+    "define": {
+      "underscored": true
+    },
+    "timezone": "-03:00"
   },
   "test": {
     "username": "root",

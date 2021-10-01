@@ -30,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
         type: 'TIMESTAMP',
         allowNull: false
       }
-    }
+    },
   );
 
   return User;
